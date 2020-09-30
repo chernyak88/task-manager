@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/task-manager/static/css/main.4a9cf89a.chunk.css",
+    "main.js": "/task-manager/static/js/main.567bf668.chunk.js",
+    "main.js.map": "/task-manager/static/js/main.567bf668.chunk.js.map",
+    "runtime-main.js": "/task-manager/static/js/runtime-main.97270499.js",
+    "runtime-main.js.map": "/task-manager/static/js/runtime-main.97270499.js.map",
+    "static/js/2.8de31858.chunk.js": "/task-manager/static/js/2.8de31858.chunk.js",
+    "static/js/2.8de31858.chunk.js.map": "/task-manager/static/js/2.8de31858.chunk.js.map",
+    "index.html": "/task-manager/index.html",
+    "precache-manifest.82cf0c7604c11598afe1a163ce641fa0.js": "/task-manager/precache-manifest.82cf0c7604c11598afe1a163ce641fa0.js",
+    "service-worker.js": "/task-manager/service-worker.js",
+    "static/css/main.4a9cf89a.chunk.css.map": "/task-manager/static/css/main.4a9cf89a.chunk.css.map",
+    "static/js/2.8de31858.chunk.js.LICENSE.txt": "/task-manager/static/js/2.8de31858.chunk.js.LICENSE.txt",
+    "static/media/DeleteTask.css": "/task-manager/static/media/delete.b8681d94.svg",
+    "static/media/EditTask.css": "/task-manager/static/media/edit.a554211b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97270499.js",
+    "static/js/2.8de31858.chunk.js",
+    "static/css/main.4a9cf89a.chunk.css",
+    "static/js/main.567bf668.chunk.js"
+  ]
+}
