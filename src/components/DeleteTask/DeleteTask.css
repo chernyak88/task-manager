@@ -1,0 +1,9 @@
+.DeleteTask-button{
+  background-image: url('../../images/delete.svg');
+  float: right;
+}
+
+input.form-control.disabled {
+  border-color: #ced4da;
+  box-shadow: none;
+}

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.btn {
+  font-family: 'Roboto';
+  width: 148px;
+  height: 36px;
+  color: #000;
+  background-color: #fff;
+  line-height: 16px;
+}
+
+.btn-success {
+  float: right;
+}
+
+.btn-primary {
+  width: 180px;
+}
+
+.btn-delete {
+  border-color: #ff0000;
+}
+
+.btn-delete:hover, .btn-delete:active, .btn-delete:focus {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.modal-header {
+  position: relative;
+  border-bottom: none;
+  padding: 2rem;
+  padding-bottom: 10px;
+}
+
+.modal-title {
+  font-size: 14px;
+}
+
+.modal-body {
+  padding: 2rem;
+  padding-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+}

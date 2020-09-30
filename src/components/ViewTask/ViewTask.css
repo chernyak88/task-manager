@@ -1,0 +1,35 @@
+.fullscreen {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow-y: hidden !important;
+}
+
+.fullscreen > .modal-dialog {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.fullscreen > .modal-dialog > .modal-content {
+  height: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.fullscreen > .modal-dialog > .modal-content > .MainTitle {
+  padding: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+div.form-control.disabled {
+  height: auto;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1024px) {
+  .fullscreen {
+    overflow-y: auto !important;
+  }
+}

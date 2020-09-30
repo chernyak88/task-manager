@@ -1,0 +1,72 @@
+.MainTitle {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ListTask {
+  font-family: 'Tahoma';
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.list-group-item {
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+}
+
+.list-group-item > div {
+  line-height: 35px;
+  padding: 5px 0;
+  padding-left: 20px;
+}
+
+.list-group-item > div:first-child {
+  width: 162px;
+  border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item > div:nth-child(2) {
+  flex: 1;
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-group-item > div:nth-child(3) {
+  border-left: 1px solid rgba(0,0,0,.125);
+  padding-right: 10px;
+}
+
+.Task-button {
+  width: 22px;
+  height: 35px;
+  float: right;
+  border: none;
+  background-color: transparent;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+
+.Task-button.close {
+  width: 14px;
+  height: 14px;
+  background-image: url('../../images/cross.png');
+  position: absolute;
+  right: 35px;
+  bottom: 20px;
+}
+
+.Task-button:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+  .list-group-item > div {
+    padding-left: 10px;
+  }
+  .list-group-item > div:first-child {
+    width: 100px;
+  }
+}

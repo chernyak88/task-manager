@@ -1,0 +1,13 @@
+.AddTask-button{
+  float: right;
+}
+.error {
+  font-size: 12px;
+  color: #ff0000;
+}
+.form-group.no-margin {
+  margin-bottom: 0;
+}
+.btn-add {
+  margin-top: 20px;
+}
